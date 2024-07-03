@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.22.4
 
 # Install grpc
 RUN go get -u github.com/golang/protobuf/protoc-gen-go

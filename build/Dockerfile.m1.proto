@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 golang:latest
+FROM --platform=linux/amd64 golang:1.23rc2
 
 # Install grpc
 RUN go get -u github.com/golang/protobuf/protoc-gen-go
